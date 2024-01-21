@@ -6,14 +6,14 @@ import arrows from "../assets/arrows.svg";
 
 export const Shopify = () => {
   return (
-    <main className='lg:mt-48 flex lg:flex-row flex-col justify-between mt-20'>
+    <main className='lg:mt-48 flex lg:flex-row flex-col justify-between'>
       {/* Content */}
 
       <section className='lg:order-1 order-2 lg:basis-[48%]'>
         <img src={shopify} alt='shopify-logo' />
         <img src={stars} className='lg:mt-8 mt-3' alt='stars' />
 
-        <h2 className='text-title font-medium text-xl lg:text-4xl mt-5 lg:leading-normal'>
+        <h2 className='text-title font-medium text-md lg:text-4xl mt-5 lg:leading-normal'>
           ClearLink has upgraded our <br className='lg:block hidden' /> remote
           meetings. High-quality <br className='lg:block hidden' /> video,
           screen sharing, and <br className='lg:block hidden' /> top-notch

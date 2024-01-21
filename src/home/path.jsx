@@ -3,9 +3,9 @@ import video from "../assets/video-call.svg"
 
 const Path = () => {
   return (
-    <main className='lg:mt-48 lg:flex justify-between mt-20'>
+    <main className='lg:mt-48 lg:flex justify-between mt-10'>
       <section className='basis-[47%]'>
-        <h1 className='text-title font-semibold text-2xl lg:text-5xl mt-2 lg:mt-5'>
+        <h1 className='text-title font-semibold text-lg lg:text-5xl mt-2 lg:mt-5'>
           Ready to clear the path to perfect communication?
         </h1>
 
@@ -13,7 +13,7 @@ const Path = () => {
           {/* One */}
           <div className='flex items-center my-3'>
             <img src={check} className='h-5' alt='check-icon' />
-            <p className='text-content ml-3 text-base lg:text-lg'>
+            <p className='text-content ml-3 text-sm lg:text-lg'>
               30 days free trial
             </p>
           </div>
@@ -22,7 +22,7 @@ const Path = () => {
 
           <div className='flex items-center my-3'>
             <img src={check} className='h-5' alt='check-icon' />
-            <p className='text-content ml-3 text-base lg:text-lg'>
+            <p className='text-content ml-3 text-sm lg:text-lg'>
               Cancel at any time
             </p>
           </div>
@@ -31,7 +31,7 @@ const Path = () => {
 
           <div className='flex items-center my-3'>
             <img src={check} className='h-5' alt='check-icon' />
-            <p className='text-content ml-3 text-base lg:text-lg'>
+            <p className='text-content ml-3 text-sm lg:text-lg'>
               Access to all features
             </p>
           </div>
@@ -40,7 +40,7 @@ const Path = () => {
 
           <div className='flex items-center my-3'>
             <img src={check} className='h-5' alt='check-icon' />
-            <p className='text-content ml-3 text-base lg:text-lg'>
+            <p className='text-content ml-3 text-sm lg:text-lg'>
               Personalized onboarding
             </p>
           </div>
