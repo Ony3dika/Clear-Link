@@ -2,6 +2,7 @@ import people from "../assets/people.svg";
 import video from "../assets/video.svg";
 import sound from "../assets/sound.svg";
 import lock from "../assets/lock.svg";
+import arrow from "../assets/arrow.svg";
 import calendar from "../assets/calendar.svg";
 
 const Advantages = () => {
@@ -79,7 +80,8 @@ const Advantages = () => {
           </section>
         </div>
 
-        <div className='lg:order-2 order-1 basis-2/5 flex justify-center'>
+        <div className='lg:order-2 order-1 basis-2/5 flex relative justify-center'>
+          <img src={arrow} alt='arrow'className="absolute lg:-top-56 top-0 lg:h-auto h-8" />
           <img src={people} className='lg:h-auto h-96' alt='people' />
         </div>
       </section>
