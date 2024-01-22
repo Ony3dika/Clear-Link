@@ -24,9 +24,9 @@ const Footer = () => {
 
         {/* List */}
 
-        <div className='basis-[50%] justify-between lg:mt-0 mt-5 flex'>
+        <div className='basis-[50%] justify-between lg:mt-0 mt-8 flex'>
           {/* Product */}
-          <ul className='lg:font-semibold font-medium lg:text-base text-xs lg:leading-loose'>
+          <ul className='lg:font-semibold font-medium lg:text-base text-xs leading-loose lg:leading-loose'>
             <li className='text-content lg:text-sm'>Product</li>
             <li className='text-[#475467]'>Overview</li>
             <li className='text-[#475467]'>Features</li>
@@ -36,7 +36,7 @@ const Footer = () => {
           </ul>
 
           {/* Company */}
-          <ul className='lg:font-semibold font-medium lg:text-base text-xs lg:leading-loose'>
+          <ul className='lg:font-semibold font-medium lg:text-base text-xs leading-loose lg:leading-loose'>
             <li className='text-content lg:text-sm'>Company</li>
             <li className='text-[#475467]'>About Us</li>
             <li className='text-[#475467]'>Careers</li>
@@ -46,7 +46,7 @@ const Footer = () => {
           </ul>
 
           {/* Resources */}
-          <ul className='lg:font-semibold font-medium lg:text-base text-xs lg:leading-loose'>
+          <ul className='lg:font-semibold font-medium lg:text-base text-xs leading-loose lg:leading-loose'>
             <li className='text-content lg:text-sm'>Resources</li>
             <li className='text-[#475467]'>Blog</li>
             <li className='text-[#475467]'>Events</li>
@@ -56,7 +56,7 @@ const Footer = () => {
           </ul>
 
           {/* Legal */}
-          <ul className='lg:font-semibold font-medium lg:text-base text-xs lg:leading-loose'>
+          <ul className='lg:font-semibold font-medium lg:text-base text-xs leading-loose lg:leading-loose'>
             <li className='text-content lg:text-sm'>Legal</li>
             <li className='text-[#475467]'>Terms</li>
             <li className='text-[#475467]'>Privacy</li>
@@ -69,14 +69,16 @@ const Footer = () => {
         {/* Apps */}
 
         <div className='basis-[10%]'>
-          <p className='text-blu font-semibold lg:text-base text-sm lg:mt-o mt-5'>
+          <p className='text-blu font-semibold lg:text-base text-sm lg:mt-o mt-8'>
             Get the app
           </p>
           <img src={app} className='mt-3' alt='app-store' />
         </div>
       </section>
-      <section className='flex lg:flex-row flex-col justify-between mt-5'>
-        <p className='text-content lg:text-start text-xs text-center'>
+
+
+      <section className='flex lg:flex-row flex-col justify-between mt-10 lg:mt-20'>
+        <p className='text-content lg:text-start lg:text-base text-xs text-center'>
           © 2023 ClearLink. All rights reserved.
         </p>
 

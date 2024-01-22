@@ -1,12 +1,14 @@
 import logo from "../assets/logo.svg";
 import down from "../assets/down.svg";
 import { useState } from "react";
-import sound from "../assets/sound.svg";
+import { CgMenuRightAlt } from "react-icons/cg";
+import { IoIosCloseCircleOutline } from "react-icons/io";
+
 
 const Navbar = () => {
   const [menu, setmenu] = useState(false);
   return (
-    <main className='sticky bg-transparent left-0 top-5'>
+    <main className='sticky bg-transparent z-50 left-0 top-5'>
       <nav className='flex bg-secondary border-[1.5px] justify-between rounded-full lg:py-4 py-2 px-4 lg:px-6 border-border mt-10'>
         <section className='flex basis-[20%] items-center'>
           <img src={logo} className='lg:h-6 h-5' alt='logo' />
@@ -47,15 +49,14 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <section className='lg:hidden block'>
-          <img
-            src={sound}
-            className='h-9'
+          <CgMenuRightAlt
+            className='text-blu'
+            size={"1.3rem"}
             onClick={() => setmenu(true)}
-            alt='menu'
           />
 
           <div
-            className={`w-9/12 backdrop-blur-xl hero border-border border-2 rounded-r-2xl bg-secondary fixed transition-all duration-200 ease-linear top-0  h-screen ${
+            className={`w-9/12 backdrop-blur-xl hero border-border border-2 rounded-r-xl bg-secondary/90 fixed transition-all duration-200 ease-linear top-0  h-screen ${
               menu ? "left-0" : "left-[-100%]"
             }`}
           >
@@ -64,11 +65,10 @@ const Navbar = () => {
                 ClearLink<span className='text-blu'>.</span>
               </p>
 
-              <img
-                src={sound}
-                className='h-9'
+              <IoIosCloseCircleOutline
+                className='text-blu'
+                size={"1.5rem"}
                 onClick={() => setmenu(false)}
-                alt='menu'
               />
             </div>
 

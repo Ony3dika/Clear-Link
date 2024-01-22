@@ -27,7 +27,7 @@ const Advantages = () => {
           {/* First 2 items */}
           <section className='lg:flex justify-between lg:mt-8'>
             {/* Item 1 */}
-            <div className='basis-[47%] border-border border-[1px] lg:border-0 p-2 lg:p-0 rounded-xl'>
+            <div className='basis-[47%] border-border border-[1px] lg:border-0 p-4 lg:p-0 rounded-xl'>
               <img src={video} className='lg:h-12 h-8' alt='video' />
               <p className='font-semibold text-title lg:text-lg text-md mt-3'>
                 Crystal-clear HD video
@@ -39,7 +39,7 @@ const Advantages = () => {
             </div>
 
             {/* Item 2 */}
-            <div className='basis-[47%] border-border border-[1px] lg:border-0 p-2 lg:p-0 rounded-xl lg:mt-0 mt-10'>
+            <div className='basis-[47%] border-border border-[1px] lg:border-0 p-4 lg:p-0 rounded-xl lg:mt-0 mt-10'>
               <img src={sound} className='lg:h-12 h-8' alt='video' />
               <p className='font-semibold text-title lg:text-lg text-md mt-3'>
                 Noise-canceling audio
@@ -54,7 +54,7 @@ const Advantages = () => {
           {/* Last 2 items */}
           <section className='lg:flex justify-between mt-8'>
             {/* Item 3 */}
-            <div className='basis-[47%] border-border border-[1px] lg:border-0 p-2 lg:p-0 rounded-xl'>
+            <div className='basis-[47%] border-border border-[1px] lg:border-0 p-4 lg:p-0 rounded-xl'>
               <img src={calendar} className='lg:h-12 h-8' alt='video' />
               <p className='font-semibold text-title lg:text-lg text-md mt-3'>
                 Scheduling made easy
@@ -67,7 +67,7 @@ const Advantages = () => {
             </div>
 
             {/* Item 4 */}
-            <div className='basis-[47%] border-border border-[1px] lg:border-0 p-2 lg:p-0 rounded-xl lg:mt-0 mt-10'>
+            <div className='basis-[47%] border-border border-[1px] lg:border-0 p-4 lg:p-0 rounded-xl lg:mt-0 mt-10'>
               <img src={lock} className='lg:h-12 h-8' alt='video' />
               <p className='font-semibold text-title lg:text-lg text-md mt-3'>
                 Bank-grade security
@@ -82,7 +82,7 @@ const Advantages = () => {
 
         <div className='lg:order-2 order-1 basis-2/5 flex relative justify-center'>
           <img src={arrow} alt='arrow'className="absolute lg:-top-56 top-0 lg:h-auto h-8" />
-          <img src={people} className='lg:h-auto h-96' alt='people' />
+          <img src={people} className='lg:h-auto z-0 h-96' alt='people' />
         </div>
       </section>
     </main>
