@@ -1,5 +1,5 @@
 import check from "../assets/check.svg";
-import video from "../assets/video-call.svg"
+import video from "../assets/video-call.png"
 
 const Path = () => {
   return (

@@ -1,7 +1,7 @@
 import robot from "../assets/robot.svg"
 import avatar from "../assets/avatar.svg"
 import stars from "../assets/stars.svg"
-import users from "../assets/users.svg";
+import users from "../assets/users.png";
 
 const Hero = () => {
   return (
